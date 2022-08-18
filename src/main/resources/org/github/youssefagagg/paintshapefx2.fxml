@@ -81,7 +81,7 @@
    <center>
       <Pane fx:id="drawingAreaPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
          <children>
-            <Canvas fx:id="canvas" height="${drawingAreaPane.height}" onMouseDragged="#canvasMouseDragged" onMousePressed="#canvasMousePressed" onMouseReleased="#canvasMouseReleased" width="${drawingAreaPane.width}" onWidthChange="#redraw" onHeightChange="#redraw" />
+            <Canvas fx:id="canvas" height="${drawingAreaPane.height}" onMouseDragged="#canvasMouseDragged" onMousePressed="#canvasMousePressed" onMouseReleased="#canvasMouseReleased" width="${drawingAreaPane.width}" />
          </children>
          <BorderPane.margin>
             <Insets top="5.0" />
