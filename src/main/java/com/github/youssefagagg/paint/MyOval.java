@@ -1,4 +1,4 @@
-package org.github.youssefagagg.paint;
+package com.github.youssefagagg.paint;
 
 import javafx.scene.canvas.GraphicsContext;
 import javafx.scene.paint.Color;

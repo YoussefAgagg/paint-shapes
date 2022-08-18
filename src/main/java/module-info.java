@@ -3,6 +3,6 @@ module org.github.youssefagagg {
     requires javafx.fxml;
 
 
-    exports org.github.youssefagagg.paint;
-    opens org.github.youssefagagg.paint to javafx.fxml;
+    exports com.github.youssefagagg.paint;
+    opens com.github.youssefagagg.paint to javafx.fxml;
 }
